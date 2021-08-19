@@ -1,0 +1,409 @@
+h1{
+  padding-left: 150px;
+}
+.coloured-section{
+  background-image: url(./images/5.jpg);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  border-radius:0 0 50px 50px;
+}
+.container2{
+  display: flex;
+}
+/* body{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+} */
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+}
+.section-title {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+.section-title h1{
+    display: inline-block;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 5px;
+    position: relative;
+}
+.section-title h1:before{
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 2px;
+    right: 32%;
+    background-color: #50c5fc;
+    bottom: 0px;
+}
+.skills .section-title h1:before{
+    left: 30%;
+}
+.text-center{
+    text-align: center;
+}
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.skill-bar{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
+ 
+}
+.skill-per{
+    height: 20px;
+    background-color: #50c5fc;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 2px;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+}
+
+.title-heading{
+  font-family: "Lucida Handwriting";
+  color: #FFC2B4;
+  padding:55px 55px 25px 55px ;
+}
+.title-img{
+  padding-left: 100px;
+}
+.navbar-brand{
+    color:#FFC2B4;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.nav-link{
+    color:#FFC2B4;
+    font-size: 25px;
+    padding-right: 36px;    
+}
+#proj{
+  margin: 0;
+  padding: 0;
+}
+.col{
+  padding: 10px 0 20px 40px ;
+  font-family: 'Lucida Handwriting';
+  color: whitesmoke;
+}
+.about-img{
+    margin-left: 170px;
+    width: 250px;
+}
+.about{
+    padding: 100px;
+    margin-top: 50px;
+    /* background-image: linear-gradient(to top, #98ddca, #a7e1c6, #b6e5c4, #c6e9c2, #d5ecc2); */
+    border-radius: 50px;
+    
+}
+.projects{
+  margin-top: 100px;
+  padding-bottom: 50px;
+  /* background-color: white; */
+  
+}
+.collapse{
+    padding-right: 100px;
+}
+a{
+  padding-left: 150px;
+}
+.social-icon{
+}
+.contact-text{
+  padding-left: 500px;
+  color: white;
+  font-family: 'Lucida Handwriting';
+  padding-bottom: 50px;
+
+}
+.text{
+  padding-left: 400px;
+  font-family: 'Lucida Handwriting';
+
+  font-size: 30px;
+
+}
+.contact{
+  padding:100px 0 50px 30px;
+  background-image: url(./images/4.jpg);
+  background-size: cover;
+  border-radius: 50px 50px 0 0;
+
+}
+.navbar-toggler{
+    padding: .25rem 5rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+#textme{
+    background: rgba( 227, 247, 253, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.wrap{
+    margin: 0;
+    padding-top: 100px;
+  }
+  
+  .line {
+    width: 100vw;
+  }
+  .left, .right {
+    width: 50vw;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .left {
+    color:pink;
+    transform: skew(0deg, -15deg);
+  }
+  
+  .right {
+    color: white;
+    transform: skew(0deg, 15deg);
+  }
+  .left .content {
+    width: 100vw;
+    text-align: center;
+  }
+  .right .content {
+    width: 100vw;
+    text-align: center;
+    transform: translate(-50vw);
+  }
+  #secpart {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 100px; */
+    text-transform: uppercase;
+    line-height: .8;
+    transition: ease-out .6s;
+  }
+ 
+  
+          body {
+            background-color: #100e17;
+            font-family: 'Open Sans', sans-serif;
+          }
+          p{
+            color: whitesmoke;
+          }
+          .container {
+            /* position: absolute; */
+            height: 300px;
+            width: 600px;
+            /* top: 60px; */
+            left: calc(50% - 300px);
+            display: flex;
+          }
+          
+          .card {
+            display: flex;
+            height: 280px;
+            width: 200px;
+            background-color: #17141d;
+            border-radius: 10px;
+            box-shadow:  -1rem 0 3rem #000;
+          /*   margin-left: -50px; */
+            transition: 0.4s ease-out;
+            position: relative;
+            left: 0px;
+          }
+          
+          .card:not(:first-child) {
+              margin-left: -50px;
+          }
+          
+          .card:hover {
+            transform: translateY(-20px);
+            transition: 0.4s ease-out;
+          }
+          
+          .card:hover ~ .card {
+            position: relative;
+            left: 50px;
+            transition: 0.4s ease-out;
+          }
+          
+          .title {
+            color: white;
+            font-weight: 300;
+            position: absolute;
+            left: 20px;
+            top: 15px;
+          }
+          
+          .bar {
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            height: 5px;
+            width: 150px;
+          }
+          
+          .emptybar {
+            background-color: #2e3033;
+            width: 100%;
+            height: 100%;
+          }
+          
+          .filledbar {
+            position: absolute;
+            top: 0px;
+            z-index: 3;
+            width: 0px;
+            height: 100%;
+            background: rgb(0,154,217);
+            background: linear-gradient(90deg, rgba(0,154,217,1) 0%, rgba(217,147,0,1) 65%, rgba(255,186,0,1) 100%);
+            transition: 0.6s ease-out;
+          }
+          
+          .card:hover .filledbar {
+            width: 120px;
+            transition: 0.4s ease-out;
+          }
+          
+          .circle {
+            position: absolute;
+            top: 150px;
+            left: calc(50% - 60px);
+          }
+          
+          .stroke {
+            stroke: white;
+            stroke-dasharray: 360;
+            stroke-dashoffset: 360;
+            transition: 0.6s ease-out;
+          }
+          
+          svg {
+            fill: #17141d;
+            stroke-width: 2px;
+          }
+          
+          .card:hover .stroke {
+            stroke-dashoffset: 100;
+            transition: 0.6s ease-out;
+          }
+
+@media screen and (min-width:601px) {
+  #secpart{
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  #secpart{
+    font-size: 40px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
+
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 100px;
+  padding-left: 100px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+button.learn-more {
+    font-weight: 200;
+    color: black;
+    text-transform: uppercase;
+    padding: 0.25em 1em;
+    background: #fff0f0;
+    border: 2px solid pink;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+button .learn-more::before {
+      position: absolute;
+      content: '';
+      width: 100px;
+      height: 100px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+background: #f9c4d2;
+      border-radius: inherit;
+      box-shadow: 0 0 0 2px pink, 0 0.625em 0 0 pink;
+      transform: translate3d(0, 0.75em, -1em);
+      transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+    button:hover {
+      background: pink;
+      transform: translate(0, 0.25em);
+    }
+    button:hover:before {
+        box-shadow: 0 0 0 2px pink, 0 0.5em 0 0 pink;
+        transform: translate3d(0, 0.5em, -1em);
+      }
+    
+    button:active {
+      background: pink;
+      transform: translate(0em, 0.75em);
+    }
+    button:active:before {
+        box-shadow: 0 0 0 2px pink, 0 0 pink;
+        transform: translate3d(0, 0, -1em);
+      }
